@@ -43,7 +43,7 @@ const App: React.FC = () => {
             <Route path="/sign-in" component={SignInComponent} />
             {/* <Route path="/spaceships" component={SpaceshipsComponent} /> */}
             {/* <Route path="/tic-tac-toe" component={TicTacComponent} /> */}
-            <Route component={HomeComponent} />
+            <Route path="/home" component={HomeComponent} />
           </Switch>
         </div>
       </Router>
