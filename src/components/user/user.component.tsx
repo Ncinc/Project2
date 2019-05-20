@@ -38,7 +38,7 @@ export interface UserFaceProps {
     date: string, eventlocation: string, description: string, eventimage: string, history) => void
 }
 
-class UserComponent extends React.Component<UserFaceProps> {
+export class UserComponent extends React.Component<UserFaceProps> {
 
   // updateWord = (event) => {
   //   this.setState(
